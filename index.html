@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="landing-page">
+        <h1 class="welcome-text">Halo selamat datang di website ini</h1>
+    </div>
+    </div>
+    <ul class="nav">
+        <li class="nav-icon desktop">
+        <img src="./asset/logo atas.png" alt="iconAvatar.svg">
+    </li>
+    <li>
+        <a href="#about-me">About Me</a>
+    </li>
+    <li>
+        <a href="#portofolio">My Portofolio</a>
+    </li>
+    <li>
+        <a href="#contact-us">Contact Me</a>
+    </li>
+    </ul>
+    <div id="about-me">
+        <h1 class="title-about-me">Tentang Saya</h1>
+        <div class="section-introduction">
+            <img src="./asset/kontak.png" alt="iconAvatar.svg" class="img-icon">
+            <p class="content-perkenalan">
+                Perkenalkan saya merah, seorang yang lagi belajar dan berusaha menjadi web developer
+                yang berfokus dalam membuat tampilan modern dan responsive.
+            </p>
+            <div class="section-education">
+                <img src="./asset/student.png" alt="iconAvatar.svg" class="img-icon">
+                <p class="content-perkenalan">
+                    Saya telah mengikuti beberapa kelas dan materi khusus untuk membuat tampilan web responsive 
+                    dan telah memiliki beberapa sertifikat.
+                </p>
+            </div>
+            <div class="section-working">
+                <img src="./asset/think.png" alt="iconAvatar.svg" class="img-icon">
+                <p class="content-perkenalan">
+                    Saya masih berusaha untuk menguasai cara membuat tampilan website dengan menggunakan
+                    <b>HTML, CSS</b> dan <b>JavaScript</b>
+                    saya juga masih belajar menggunakan framework modern seperti
+                    <b>Bootstrap.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+        <div id="portofolio">
+            <h1 class="title-portofolio">My Portofolio</h1>
+            <div class="container">
+                <img src="https://images.unsplash.com/photo-1518349619113-03114f06ac3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt class="img-portofolio">
+                <img src="https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" alt class="img-portofolio">
+                <img src="https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt class="img-portofolio">
+                <img src="https://images.unsplash.com/photo-1576153192621-7a3be10b356e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" alt class="img-portofolio">
+            </div>
+        </div>
+        <hr>
+        <div id="contact-us">
+            <h1 class="title-contact-us">Kontak Saya</h1>
+            <form action class="form-contact-us">
+                <div class="inputan">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama">
+                </div>
+                <div class="inputan">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="inputan">
+                    <label for="pesan">Pesan</label>
+                    <textarea name id cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn-kirim">Kirim</button>
+            </form>
+            <div class="contact-info">
+                <h3 class="non-desktop">Ketuk salah satu untuk mendapat info</h3>
+                <div>
+                    <a href="tel:0813-7272-7173" class="contact-icon-bundler">
+                        <img src="./asset/telepon.png" alt="phone.png"
+                        class="contact-icon" width="100px">
+                        <span class="contact-desktop">081372727173</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:novrizal.fattah@gmail.com" class="contact-icon-bundler">
+                        <img src="./asset/email.png" alt="mail.png"
+                        class="contact-icon" width="100px">
+                        <span class="contact-desktop">novrizal.fattah@gmail.com</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/novrizal-fahmitra" class="contact-icon-bundler">
+                        <img src="./asset/linkedin.png" alt="in.png"
+                        class="contact-icon" width="100px">
+                        <span class="contact-desktop">novrizalfahmitra</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>Kelas Website Responsive, Inc. All rights reserved</footer>
+</body>
+</html>

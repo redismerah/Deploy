@@ -1,0 +1,217 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+
+#landing-page {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: 
+    url(./asset/program.jpg);
+}
+.welcome-text {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    transform: scale(.8);
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.nav > li {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.nav > li > a {
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+
+
+hr {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.section-introduction, .section-education, .section-working {
+    text-align: center;
+}
+
+.section-education, .section-working{
+    display: inline-block;
+    margin-top: 5em;
+}
+
+.img-icon {
+    max-width: 12em;
+}
+
+#about-me {
+    padding: 2em 0;
+}
+
+.content-perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.title-about-me, .title-portofolio, .title-contact-us {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.desktop {
+    display: none !important;
+}
+
+#portofolio {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-portofolio {
+    max-width: 300px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.form-contact-us, .contact-info {
+    width: 100%;
+    text-align: center;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputan > label {
+    display: block;
+    font-size: 1.2em;
+}
+
+.inputan > input, .inputan > textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.btn-kirim {
+    width: 85%;
+    margin: 1em 0;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+}
+
+.contact-icon {
+    width: 50px;
+    margin: 2em;
+}
+
+.contact-desktop {
+    display: none;
+}
+
+.contact-info-bundler {
+    display: block;
+}
+
+.contact-info > div {
+    display: inline-block;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px){
+.desktop{
+    display: block !important;
+}
+li.nav-icon {
+    padding: 0;
+    width: 45px;
+    margin: 0.3em 1em;
+    float: left;
+}
+
+.nav-icon > img{
+    width: 100%;
+}
+
+ul.nav {
+    text-align: right;
+}
+
+.section-education, .section-working {
+    width: 49.5%;
+    vertical-align: top;
+}
+
+hr {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-contact-us, .contact-info {
+    width: 49,5%;
+    display: inline-block;
+    vertical-align: top;
+}
+}
